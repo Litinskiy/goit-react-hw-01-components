@@ -1,0 +1,21 @@
+.transaction_history{
+    margin: 0 auto;
+    background-color: #cdd2d8;
+}
+
+.theader{
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #5492d9;
+}
+
+.data{
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #e7edf4;
+}
+
+.type{
+    text-transform: capitalize;
+}
+

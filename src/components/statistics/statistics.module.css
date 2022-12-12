@@ -1,0 +1,23 @@
+.statistics{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 450px;
+    background-color: #ebe9e9;
+}
+
+.title{
+    text-align: center;
+}
+
+.statList{
+padding-left: 0;
+list-style: none;
+display: flex;
+}
+
+.item{
+padding: 15px;
+background-color: blue;
+width: 15%;
+}
+

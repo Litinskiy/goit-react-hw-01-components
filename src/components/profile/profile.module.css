@@ -1,0 +1,36 @@
+.profile{
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 20px;
+    width: 240px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.avatar{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.stats{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+
+    background-color: rosybrown;
+    color: blue;
+}
+
+.quantity{
+    margin-left: 2px;
+}
+.label{
+    margin-left: 3px;
+}
