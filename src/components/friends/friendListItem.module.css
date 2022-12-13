@@ -11,7 +11,8 @@
 margin: 0 10px 0 10px;
 }
 
-.statusOnline{
+.statusOnline,
+.statusOffline {
     display: block;
     width: 15px;
     height: 15px;
@@ -20,10 +21,6 @@ margin: 0 10px 0 10px;
 }
 
 .statusOffline{
-    display: block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
     background-color: red;
 }
 

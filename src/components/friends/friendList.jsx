@@ -9,7 +9,7 @@ export function FriendList({ friends }) {
 </ul>)
 }
 
-FriendList.propTypes = {
+FriendList.PropTypes = {
     friends: PropTypes.arrayOf(PropTypes.shape({
         avatar: PropTypes.string.isRequired,
         id: PropTypes.number.isRequired,
