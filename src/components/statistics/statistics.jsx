@@ -18,7 +18,7 @@ export function Statistics({ title, stats }) {
 </section>
 }
 
-Statistics.PropTypes = {
+Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(PropTypes.shape({
         label: PropTypes.string.isRequired,

@@ -1,4 +1,4 @@
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import css from "../friends/friendListItem.module.css" 
     
 export function FriendListItem({ avatar, isOnline, name  }) {
@@ -10,8 +10,8 @@ export function FriendListItem({ avatar, isOnline, name  }) {
 </li>) 
 }
 
-// FriendListItem.PropTypes = {
-//     avatar: PropTypes.string,
-//     name: PropTypes.string,
-//     isOnline: PropTypes.bool.isRequired,
-// }
+FriendListItem.propTypes = {
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    isOnline: PropTypes.bool.isRequired,
+}
